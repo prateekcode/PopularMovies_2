@@ -178,6 +178,7 @@ public class MainActivity extends AppCompatActivity {
         MenuItem item = menu.findItem(R.id.sort_spinner);
         Spinner spinner = (Spinner) item.getActionView();
 
+
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.sort_spinner_list, R.layout.sort_spinner_item);
         adapter.setDropDownViewResource(R.layout.sort_dropdown_item);
@@ -207,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (getResources().getConfiguration().orientation == ORIENTATION_PORTRAIT) {
             if (width > 1000) {
-                return 3;
+                return 2;
             } else {
                 return 2;
             }

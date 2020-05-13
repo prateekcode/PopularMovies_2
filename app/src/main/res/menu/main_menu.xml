@@ -5,6 +5,8 @@
         android:id="@+id/sort_spinner"
         android:title="@string/action_sort"
         app:actionViewClass="android.widget.Spinner"
+        android:orderInCategory="1"
         app:showAsAction="ifRoom" />
+
 
 </menu>

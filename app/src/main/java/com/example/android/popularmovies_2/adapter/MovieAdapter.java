@@ -24,6 +24,7 @@ import com.example.android.popularmovies_2.R;
 import com.example.android.popularmovies_2.utils.MovieExecutor;
 import com.example.android.popularmovies_2.databinding.ItemMovieBinding;
 import com.google.android.material.snackbar.Snackbar;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -109,6 +110,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieAdapter
         void bind(final Movie movie) {
             binding.setMovie(movie);
             binding.setPresenter(this);
+
 
             Glide.with(binding.movieItemIv.getContext())
                     .load("http://image.tmdb.org/t/p/w342" + movie.posterPath)

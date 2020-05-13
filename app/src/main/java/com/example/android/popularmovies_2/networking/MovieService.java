@@ -24,7 +24,7 @@ public class MovieService {
                     HttpUrl httpUrl = request.url();
 
                     httpUrl = httpUrl.newBuilder()
-                            .addQueryParameter("api_key", "API_KEY_HERE")
+                            .addQueryParameter("api_key", "ENTER_API_KEY")
                             .build();
 
                     request = request.newBuilder().url(httpUrl).build();

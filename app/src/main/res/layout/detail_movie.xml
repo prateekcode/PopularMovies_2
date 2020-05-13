@@ -6,13 +6,12 @@
     <data>
         <variable
             name="movie"
-            type="" />
+            type="com.example.android.popularmovies_2.model.Movie" />
 
-        <!-- TODO(1) Fill type after Model Class -->
-        
         <variable
             name="presenter"
             type="com.example.android.popularmovies_2.DetailActivity" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
